@@ -22,9 +22,27 @@ Lists
 
 ## Efficiency :
 
+
+### Roter Trie Node Class
+
+#### Insert method 
+
     Time complexity:
         
-        * O(n) -> About the number of characters in the path. The time complexity is lineal because iterate each p of the path.
+        * O(n) -> Because we just add one element to the dictionary.
+
+    Space complexity:
+    
+        * O(n) -> Because we just save one new element. 
+
+ 
+### Route Trie Class
+
+#### Insert method 
+
+    Time complexity:
+        
+        * O(n) -> About the number of words in the path. The time complexity is lineal because iterate each p of the path.
 
     Space complexity:
     
@@ -32,5 +50,50 @@ Lists
 
     
 
+#### Find method 
+
+     Time complexity:
+        
+        * O(n) -> About the number of words in the path. The time complexity is lineal because iterate each p of the path.
+
+    Space complexity:
+    
+        * O(n) -> Because we safe all the p's in the path. 
+
+
+
+### Router Class
+
+####  Add handler method 
+
+     Time complexity:
+        
+        * O(n) -> Because we just call the insert method of RouterTrie Class. 
+
+    Space complexity:
+    
+        * O(n) -> Because we just call the insert method of RouterTrie Class. 
+
+
+####  Look ip method 
+
+     Time complexity:
+        
+        * O(n) -> Because we just call the find method of RouterTrie Class.
+
+    Space complexity:
+    
+        * O(n) -> Because we just call the find method of RouterTrie Class.
+        
+        
+####  split path method 
+
+     Time complexity:
+        
+        * O(n) -> Because we iterate each char of the string, and when we find the char '/' we just divide the path and then continue.  
+
+    Space complexity:
+    
+        * O(n) -> Because we just save all the strings in an array. 
 
 
