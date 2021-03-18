@@ -58,3 +58,10 @@ print ("Pass" if  (11 == sqrt(125)) else "Fail")
 print ("Pass" if  (25 == sqrt(626)) else "Fail")
 
 
+
+# test 3
+# expected output: None
+print("Pass" if (sqrt(None) is None) else "Fail")
+
+# expected output = 99999
+print("Pass" if (99999 == sqrt(9999999999)) else "Fail")
